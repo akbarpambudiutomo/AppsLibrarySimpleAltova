@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileTogetherDesign versionClient="60" versionServer="60">
+	<DesignRoot id="7">
+		<children>
+			<DesignPage id="8">
+				<style name="Main Page"/>
+				<children>
+					<DesignTable id="560">
+						<style name="Table3"/>
+						<children>
+							<DesignTableCol id="561">
+								<style colWidth="wrap_content"/>
+							</DesignTableCol>
+							<DesignTableCol id="562">
+								<style visible_x="$PERSISTENT/Root/search = 1"/>
+							</DesignTableCol>
+							<DesignTableCol id="563">
+								<style visible_x="$PERSISTENT/Root/search = 0"/>
+							</DesignTableCol>
+							<DesignTableRow id="564">
+								<children>
+									<DesignCheckBox id="558" pageXML="570">
+										<style marginRight="5px" name="Check Box1" text="Search"/>
+									</DesignCheckBox>
+									<DesignEditField id="559" pageXML="571">
+										<style name="Edit Field1"/>
+									</DesignEditField>
+									<DesignButton id="516">
+										<style align="right" name="Button1" text="Add New Book"/>
+										<controlActions id="517">
+											<children>
+												<DesignActionCtrlClick id="518">
+													<children>
+														<DesignActionGroupRef id="519" groupRef="525"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignHLine id="567">
+						<style name="Horizontal Line2"/>
+					</DesignHLine>
+					<DesignTable id="9">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="10"/>
+							<DesignTableCol id="11">
+								<style colWidth="20%"/>
+							</DesignTableCol>
+							<DesignTableRowGroup id="12" pageXML="104">
+								<style addDelPossible="0" visible_x="$PERSISTENT/Root/search = 0 or SearchTextInRow(.)"/>
+								<children>
+									<DesignTableRow id="13">
+										<children>
+											<DesignTable id="14">
+												<style name="Table2"/>
+												<children>
+													<DesignTableCol id="15">
+														<style colWidth="wrap_content"/>
+													</DesignTableCol>
+													<DesignTableCol id="16"/>
+													<DesignTableRow id="17">
+														<children>
+															<DesignLabel id="6">
+																<style italic="1" marginRight="5px" name="Label1" text="Title" textSize="small" underline="0"/>
+																<controlActions id="18">
+																	<children>
+																		<DesignActionCtrlClick id="223">
+																			<children>
+																				<DesignActionGroupRef id="224" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+															<DesignLabel id="21" pageXML="106">
+																<style name="Label2" textSize="small" underline="0"/>
+																<controlActions id="22">
+																	<children>
+																		<DesignActionCtrlClick id="226">
+																			<children>
+																				<DesignActionGroupRef id="227" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+														</children>
+													</DesignTableRow>
+													<DesignTableRow id="25">
+														<children>
+															<DesignLabel id="173">
+																<style italic="1" marginRight="5px" name="Label3" text="Author" textSize="small" underline="0"/>
+																<controlActions id="174">
+																	<children>
+																		<DesignActionCtrlClick id="229">
+																			<children>
+																				<DesignActionGroupRef id="230" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+															<DesignLabel id="177" pageXML="107">
+																<style name="Label8" textSize="small" underline="0"/>
+																<controlActions id="178">
+																	<children>
+																		<DesignActionCtrlClick id="232">
+																			<children>
+																				<DesignActionGroupRef id="233" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+														</children>
+													</DesignTableRow>
+													<DesignTableRow id="28">
+														<children>
+															<DesignLabel id="181">
+																<style italic="1" marginRight="5px" name="Label4" text="ISBN" textSize="small" underline="0"/>
+																<controlActions id="182">
+																	<children>
+																		<DesignActionCtrlClick id="235">
+																			<children>
+																				<DesignActionGroupRef id="236" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+															<DesignLabel id="185" pageXML="108">
+																<style name="Label9" textSize="small" underline="0"/>
+																<controlActions id="186">
+																	<children>
+																		<DesignActionCtrlClick id="238">
+																			<children>
+																				<DesignActionGroupRef id="239" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+														</children>
+													</DesignTableRow>
+													<DesignTableRow id="31">
+														<children>
+															<DesignLabel id="189">
+																<style italic="1" marginRight="5px" name="Label5" text="Publisher" textSize="small" underline="0"/>
+																<controlActions id="190">
+																	<children>
+																		<DesignActionCtrlClick id="241">
+																			<children>
+																				<DesignActionGroupRef id="242" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+															<DesignLabel id="193" pageXML="109">
+																<style name="Label10" textSize="small" underline="0"/>
+																<controlActions id="194">
+																	<children>
+																		<DesignActionCtrlClick id="244">
+																			<children>
+																				<DesignActionGroupRef id="245" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+														</children>
+													</DesignTableRow>
+													<DesignTableRow id="34">
+														<children>
+															<DesignLabel id="172">
+																<style italic="1" marginRight="5px" name="Label6" text="Pages" textSize="small" underline="0"/>
+																<controlActions id="197">
+																	<children>
+																		<DesignActionCtrlClick id="247">
+																			<children>
+																				<DesignActionGroupRef id="248" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+															<DesignLabel id="200" pageXML="110">
+																<style name="Label11" textSize="small" underline="0"/>
+																<controlActions id="201">
+																	<children>
+																		<DesignActionCtrlClick id="250">
+																			<children>
+																				<DesignActionGroupRef id="251" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+														</children>
+													</DesignTableRow>
+													<DesignTableRow id="37">
+														<children>
+															<DesignLabel id="204">
+																<style italic="1" marginRight="5px" name="Label7" text="Year" textSize="small" underline="0"/>
+																<controlActions id="205">
+																	<children>
+																		<DesignActionCtrlClick id="253">
+																			<children>
+																				<DesignActionGroupRef id="254" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+															<DesignLabel id="208" pageXML="111">
+																<style name="Label12" textSize="small" underline="0"/>
+																<controlActions id="209">
+																	<children>
+																		<DesignActionCtrlClick id="256">
+																			<children>
+																				<DesignActionGroupRef id="257" groupRef="222"/>
+																			</children>
+																		</DesignActionCtrlClick>
+																	</children>
+																</controlActions>
+															</DesignLabel>
+														</children>
+													</DesignTableRow>
+												</children>
+											</DesignTable>
+											<DesignImage id="212" pageXML="112">
+												<style align="center" name="Image1"/>
+												<controlActions id="213">
+													<children>
+														<DesignActionCtrlClick id="259">
+															<children>
+																<DesignActionGroupRef id="260" groupRef="222"/>
+															</children>
+														</DesignActionCtrlClick>
+													</children>
+												</controlActions>
+												<ImgFileSettings id="216" imgSrcType="base64"/>
+											</DesignImage>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="41">
+										<children>
+											<DesignHLine id="4">
+												<style colSpan="2" name="Horizontal Line1"/>
+											</DesignHLine>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="42">
+										<children>
+											<DesignTableCellEmpty id="43"/>
+											<DesignTableCellEmpty id="44"/>
+										</children>
+									</DesignTableRow>
+								</children>
+							</DesignTableRowGroup>
+						</children>
+					</DesignTable>
+				</children>
+				<onPageLoadActions id="49">
+					<children>
+						<DesignActionUpdateNode id="569" updAt="$PERSISTENT/Root/search" resOf="0"/>
+					</children>
+				</onPageLoadActions>
+				<xmlRoots>
+					<PageXMLRootRef id="45" refXMLRoot="101"/>
+				</xmlRoots>
+			</DesignPage>
+			<DesignPage id="220" subPage="1">
+				<style name="Edit Book"/>
+				<children>
+					<DesignTable id="382">
+						<style name="Table2"/>
+						<children>
+							<DesignTableCol id="383"/>
+							<DesignTableCol id="384"/>
+							<DesignTableCol id="539"/>
+							<DesignTableRow id="385">
+								<children>
+									<DesignButton id="386">
+										<style name="Button2" text="Save"/>
+										<controlActions id="387">
+											<children>
+												<DesignActionCtrlClick id="388">
+													<children>
+														<DesignActionCondition id="540" condition="every $attr in $Edit-Book/DB/RowSet/Row/(@Title, @Author, @ISBN)
+satisfies trim-string($attr) != &apos;&apos;">
+															<children>
+																<DesignActionConditionTrue id="541">
+																	<children>
+																		<DesignActionSaveToDefault id="536" xmlRootRef="349"/>
+																		<DesignActionReturnFromSubpage id="538"/>
+																	</children>
+																</DesignActionConditionTrue>
+																<DesignActionConditionFalse id="542">
+																	<children>
+																		<DesignActionMessageBox id="543" msgBoxKind="yesno" msgBoxMsg="&apos;Please enter all required fields&apos;">
+																			<children>
+																				<DesignActionMessageBoxButton id="544"/>
+																				<DesignActionMessageBoxButton id="545"/>
+																			</children>
+																		</DesignActionMessageBox>
+																	</children>
+																</DesignActionConditionFalse>
+															</children>
+														</DesignActionCondition>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignButton id="394">
+										<style name="Button1" text="Discard"/>
+										<controlActions id="395">
+											<children>
+												<DesignActionCtrlClick id="396">
+													<children>
+														<DesignActionGroupRef id="527" groupRef="529"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignButton id="546">
+										<style name="Button8" text="Delete"/>
+										<controlActions id="547">
+											<children>
+												<DesignActionCtrlClick id="548">
+													<children>
+														<DesignActionMessageBox id="549" msgBoxKind="yesno" msgBoxMsg="&apos;Are you sure you want to delete this record from database?&apos;">
+															<children>
+																<DesignActionMessageBoxButton id="550">
+																	<children>
+																		<DesignActionDeleteNode id="551" delAt="$Edit-Book/DB/RowSet/Row"/>
+																		<DesignActionSaveToDefault id="552" xmlRootRef="349"/>
+																		<DesignActionReturnFromSubpage id="554"/>
+																	</children>
+																</DesignActionMessageBoxButton>
+																<DesignActionMessageBoxButton id="555"/>
+															</children>
+														</DesignActionMessageBox>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="306">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="307">
+								<style colWidth="wrap_content"/>
+							</DesignTableCol>
+							<DesignTableCol id="308"/>
+							<DesignTableRow id="309">
+								<children>
+									<DesignLabel id="275">
+										<style italic="1" name="Label1" text="Title" textSize="small"/>
+									</DesignLabel>
+									<DesignEditField id="373" pageXML="354">
+										<style name="Edit Field1" textSize="small"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="314">
+								<children>
+									<DesignLabel id="276">
+										<style italic="1" name="Label2" text="Author" textSize="small"/>
+									</DesignLabel>
+									<DesignEditField id="374" pageXML="355">
+										<style name="Edit Field2" textSize="small"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="319">
+								<children>
+									<DesignLabel id="277">
+										<style italic="1" name="Label3" text="ISBN" textSize="small"/>
+									</DesignLabel>
+									<DesignEditField id="375" pageXML="356">
+										<style name="Edit Field3" textSize="small"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="324">
+								<children>
+									<DesignLabel id="278">
+										<style italic="1" name="Label4" text="Publisher" textSize="small"/>
+									</DesignLabel>
+									<DesignEditField id="376" pageXML="357">
+										<style name="Edit Field4" textSize="small"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="329">
+								<children>
+									<DesignLabel id="279">
+										<style italic="1" name="Label5" text="Pages" textSize="small"/>
+									</DesignLabel>
+									<DesignEditField id="377" pageXML="358">
+										<style name="Edit Field5" textSize="small"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="334">
+								<children>
+									<DesignLabel id="280">
+										<style italic="1" name="Label6" text="Year" textSize="small"/>
+									</DesignLabel>
+									<DesignEditField id="378" pageXML="359">
+										<style name="Edit Field6" textSize="small"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="339">
+								<children>
+									<DesignLabel id="281">
+										<style italic="1" name="Label7" text="Image" textSize="small"/>
+									</DesignLabel>
+									<DesignTable id="413">
+										<style name="Table3"/>
+										<children>
+											<DesignTableCol id="414"/>
+											<DesignTableCol id="415"/>
+											<DesignTableCol id="416"/>
+											<DesignTableCol id="417"/>
+											<DesignTableRow id="418">
+												<children>
+													<DesignButton id="470">
+														<style name="Button3" text="Camera"/>
+														<controlActions id="471">
+															<children>
+																<DesignActionCtrlClick id="472">
+																	<children>
+																		<DesignActionChooseImage id="473" onError="continue" imageAction="Camera" location="$PERSISTENT/Root/image-source">
+																			<children>
+																				<DesignActionOnSuccess id="474">
+																					<children>
+																						<DesignActionGroupRef id="475" groupRef="439"/>
+																					</children>
+																				</DesignActionOnSuccess>
+																				<DesignActionOnCancel id="476"/>
+																				<DesignActionOnError id="477"/>
+																			</children>
+																		</DesignActionChooseImage>
+																	</children>
+																</DesignActionCtrlClick>
+															</children>
+														</controlActions>
+													</DesignButton>
+													<DesignButton id="480">
+														<style name="Button4" text="Gallery"/>
+														<controlActions id="481">
+															<children>
+																<DesignActionCtrlClick id="482">
+																	<children>
+																		<DesignActionChooseImage id="483" onError="continue" location="$PERSISTENT/Root/image-source">
+																			<children>
+																				<DesignActionOnSuccess id="484">
+																					<children>
+																						<DesignActionGroupRef id="485" groupRef="439"/>
+																					</children>
+																				</DesignActionOnSuccess>
+																				<DesignActionOnCancel id="486"/>
+																				<DesignActionOnError id="487"/>
+																			</children>
+																		</DesignActionChooseImage>
+																	</children>
+																</DesignActionCtrlClick>
+															</children>
+														</controlActions>
+													</DesignButton>
+													<DesignTableCellEmpty id="429"/>
+													<DesignButton id="501">
+														<style name="Button5" text="Clear"/>
+														<controlActions id="502">
+															<children>
+																<DesignActionCtrlClick id="503">
+																	<children>
+																		<DesignActionDeleteNode id="504" delAt="$Edit-Book/DB/RowSet/Row/@Image"/>
+																	</children>
+																</DesignActionCtrlClick>
+															</children>
+														</controlActions>
+													</DesignButton>
+												</children>
+											</DesignTableRow>
+										</children>
+									</DesignTable>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="431">
+								<children>
+									<DesignTable id="507">
+										<style name="Table4"/>
+										<children>
+											<DesignTableCol id="508"/>
+											<DesignTableRow id="509">
+												<children>
+													<DesignButton id="490">
+														<style name="Button6" text="&lt;="/>
+														<controlActions id="491">
+															<children>
+																<DesignActionCtrlClick id="492">
+																	<children>
+																		<DesignActionUpdateNode id="493" updAt="$Edit-Book/DB/RowSet/Row/@Image" resOf="mt-transform-image($MT_TargetNode, &apos;100%&apos;, -90, 50)"/>
+																	</children>
+																</DesignActionCtrlClick>
+															</children>
+														</controlActions>
+													</DesignButton>
+												</children>
+											</DesignTableRow>
+											<DesignTableRow id="511">
+												<children>
+													<DesignButton id="495">
+														<style name="Button7" text="=&gt;"/>
+														<controlActions id="496">
+															<children>
+																<DesignActionCtrlClick id="497">
+																	<children>
+																		<DesignActionUpdateNode id="498" updAt="$Edit-Book/DB/RowSet/Row/@Image" resOf="mt-transform-image($MT_TargetNode, &apos;100%&apos;, 90, 50)"/>
+																	</children>
+																</DesignActionCtrlClick>
+															</children>
+														</controlActions>
+													</DesignButton>
+												</children>
+											</DesignTableRow>
+										</children>
+									</DesignTable>
+									<DesignImage id="410" pageXML="360">
+										<style name="Image1"/>
+										<ImgFileSettings id="412" imgSrcType="base64"/>
+									</DesignImage>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+				</children>
+				<onPageLoadActions id="265">
+					<children>
+						<DesignActionCondition id="522" condition="not($Edit-Book/DB/RowSet/Row)">
+							<children>
+								<DesignActionConditionTrue id="523">
+									<children>
+										<DesignActionAppendNode id="524" appAt="$Edit-Book/DB/RowSet" resOf="mt-get-page-source-structure($Edit-Book/DB/RowSet)"/>
+									</children>
+								</DesignActionConditionTrue>
+							</children>
+						</DesignActionCondition>
+					</children>
+				</onPageLoadActions>
+				<onBackButtonActions id="267">
+					<children>
+						<DesignActionGroupRef id="528" groupRef="529"/>
+					</children>
+				</onBackButtonActions>
+				<xmlRoots>
+					<PageXMLRootRef id="348" refXMLRoot="349"/>
+				</xmlRoots>
+			</DesignPage>
+		</children>
+	</DesignRoot>
+	<ActionGroupRoot id="93">
+		<children>
+			<DesignActionGroup id="222" name="Edit Existing Book">
+				<children>
+					<DesignActionUpdateNode id="217" updAt="$PERSISTENT/Root/edit-book-id" resOf="@ID"/>
+					<DesignActionGotoSubpage id="219" pageRef="220"/>
+					<DesignActionReloadData id="218" reloadRef="101"/>
+				</children>
+			</DesignActionGroup>
+			<DesignActionGroup id="439" name="Limit Image Size">
+				<children>
+					<DesignActionDeleteNode id="435" delAt="$Edit-Book/DB/RowSet/Row/@Image"/>
+					<DesignActionAppendNode id="436" appAt="$Edit-Book/DB/RowSet/Row" resOf="attribute Image {
+	if (mt-image-width-and-height($PERSISTENT/Root/image-source) &gt; 500)
+	then mt-transform-image($PERSISTENT/Root/image-source, 500, 0, 50)
+	else $PERSISTENT/Root/image-source
+}"/>
+					<DesignActionUpdateNode id="437" updAt="$PERSISTENT/Root/image-source" resOf="&apos;&apos;"/>
+				</children>
+			</DesignActionGroup>
+			<DesignActionGroup id="525" name="Add New Book">
+				<children>
+					<DesignActionUpdateNode id="513" updAt="$PERSISTENT/Root/edit-book-id" resOf="-1"/>
+					<DesignActionGotoSubpage id="514" pageRef="220"/>
+					<DesignActionReloadData id="515" reloadRef="101"/>
+				</children>
+			</DesignActionGroup>
+			<DesignActionGroup id="529" name="Discard Edit">
+				<children>
+					<DesignActionCondition id="530" condition="mt-db-any-changed-rows($Edit-Book)">
+						<children>
+							<DesignActionConditionTrue id="531">
+								<children>
+									<DesignActionMessageBox id="532" msgBoxKind="yesno" msgBoxMsg="&apos;All modifications will be lost, are you sure?&apos;">
+										<children>
+											<DesignActionMessageBoxButton id="533">
+												<children>
+													<DesignActionReturnFromSubpage id="534"/>
+												</children>
+											</DesignActionMessageBoxButton>
+											<DesignActionMessageBoxButton id="535"/>
+										</children>
+									</DesignActionMessageBox>
+								</children>
+							</DesignActionConditionTrue>
+						</children>
+					</DesignActionCondition>
+				</children>
+			</DesignActionGroup>
+		</children>
+	</ActionGroupRoot>
+	<XPathFunctionsRoot id="94">
+		<children>
+			<DesignXPathFunction id="572" xpath="declare function SearchTextInRow($row)
+{
+	let $search-text :=$PERSISTENT/Root/search-text =&gt; trim-string() =&gt; lower-case()
+	return
+		some $attr in $row/(@Title, @Author, @ISBN, @Publisher, @NumPages, @Year)
+		satisfies contains(lower-case($attr),$search-text)
+}"/>
+		</children>
+	</XPathFunctionsRoot>
+	<PageXMLNamespaceRoot id="115">
+		<children>
+			<PageXMLNamespace id="116" defNS="1"/>
+		</children>
+	</PageXMLNamespaceRoot>
+	<PageXMLPersistentRoot id="117" name="PERSISTENT">
+		<children>
+			<PageXMLElement id="118" name="Root">
+				<children>
+					<PageXMLElement id="274" name="edit-book-id" mustExist="1"/>
+					<PageXMLElement id="512" name="image-source" mustExist="1"/>
+					<PageXMLElement id="570" name="search" mustExist="1"/>
+					<PageXMLElement id="571" name="search-text" mustExist="1"/>
+				</children>
+			</PageXMLElement>
+		</children>
+	</PageXMLPersistentRoot>
+	<PageXMLRoots id="100">
+		<children>
+			<PageXMLRootDB id="101" name="Books">
+				<children>
+					<PageXMLElement id="102" name="DB" from="db">
+						<children>
+							<PageXMLElement id="103" name="RowSet" from="db">
+								<children>
+									<PageXMLElement id="104" name="Row" from="db">
+										<children>
+											<PageXMLAttribute id="105" name="ID" from="db" primaryKey="1" autoIncrement="1" readOnly="1"/>
+											<PageXMLAttribute id="106" name="Title" from="db"/>
+											<PageXMLAttribute id="107" name="Author" from="db"/>
+											<PageXMLAttribute id="108" name="ISBN" from="db"/>
+											<PageXMLAttribute id="109" name="Publisher" from="db"/>
+											<PageXMLAttribute id="110" name="NumPages" from="db"/>
+											<PageXMLAttribute id="111" name="Year" from="db"/>
+											<PageXMLAttribute id="112" name="Image" from="db"/>
+										</children>
+									</PageXMLElement>
+								</children>
+							</PageXMLElement>
+						</children>
+					</PageXMLElement>
+				</children>
+				<dbSelection so="1" id="114" dbSource_so="99">
+					<dbSelectionDescription>
+						<tableDescriptions>
+							<table name="Books">
+								<colDescriptions>
+									<col name="ID" PK="1" fixed="1" autoIncrement="1" dataType="mt_bigint"/>
+									<col name="Title" dataType="mt_string"/>
+									<col name="Author" dataType="mt_string"/>
+									<col name="ISBN" dataType="mt_string"/>
+									<col name="Publisher" dataType="mt_string"/>
+									<col name="NumPages" dataType="mt_bigint"/>
+									<col name="Year" dataType="mt_bigint"/>
+									<col name="Image" dataType="mt_string"/>
+								</colDescriptions>
+							</table>
+						</tableDescriptions>
+					</dbSelectionDescription>
+				</dbSelection>
+			</PageXMLRootDB>
+			<PageXMLRootDB id="349" name="Edit-Book" loadBeforePageOpen="always" createDBOriginalRows="1">
+				<children>
+					<PageXMLElement id="350" name="DB" from="db">
+						<children>
+							<PageXMLElement id="351" name="RowSet" from="db">
+								<children>
+									<PageXMLElement id="352" name="Row" from="db">
+										<children>
+											<PageXMLAttribute id="353" name="ID" from="db" primaryKey="1" autoIncrement="1" readOnly="1"/>
+											<PageXMLAttribute id="354" name="Title" from="db"/>
+											<PageXMLAttribute id="355" name="Author" from="db"/>
+											<PageXMLAttribute id="356" name="ISBN" from="db"/>
+											<PageXMLAttribute id="357" name="Publisher" from="db"/>
+											<PageXMLAttribute id="358" name="NumPages" from="db"/>
+											<PageXMLAttribute id="359" name="Year" from="db"/>
+											<PageXMLAttribute id="360" name="Image" from="db"/>
+										</children>
+									</PageXMLElement>
+								</children>
+							</PageXMLElement>
+							<PageXMLElement id="361" name="OriginalRowSet" from="db">
+								<children>
+									<PageXMLElement id="362" name="OriginalRow" from="db">
+										<children>
+											<PageXMLAttribute id="363" name="ID" from="db" primaryKey="1" autoIncrement="1" readOnly="1"/>
+											<PageXMLAttribute id="364" name="Title" from="db"/>
+											<PageXMLAttribute id="365" name="Author" from="db"/>
+											<PageXMLAttribute id="366" name="ISBN" from="db"/>
+											<PageXMLAttribute id="367" name="Publisher" from="db"/>
+											<PageXMLAttribute id="368" name="NumPages" from="db"/>
+											<PageXMLAttribute id="369" name="Year" from="db"/>
+											<PageXMLAttribute id="370" name="Image" from="db"/>
+										</children>
+									</PageXMLElement>
+								</children>
+							</PageXMLElement>
+						</children>
+					</PageXMLElement>
+				</children>
+				<dbSelection so="1" id="372" dbSource_so="99">
+					<dbSelectionDescription>
+						<statements>
+							<statement name="Single_x0020_Book" statementUI="SELECT * FROM Books WHERE ID =  :ID" table="Books">
+								<colDescriptions>
+									<col name="ID" PK="1" fixed="1" autoIncrement="1" dataType="mt_bigint"/>
+									<col name="Title" dataType="mt_string"/>
+									<col name="Author" dataType="mt_string"/>
+									<col name="ISBN" dataType="mt_string"/>
+									<col name="Publisher" dataType="mt_string"/>
+									<col name="NumPages" dataType="mt_bigint"/>
+									<col name="Year" dataType="mt_bigint"/>
+									<col name="Image" dataType="mt_string"/>
+								</colDescriptions>
+								<parameters>
+									<par name="ID" dataType="mt_bigint" xpath="$PERSISTENT/Root/edit-book-id" detect="0"/>
+								</parameters>
+							</statement>
+						</statements>
+					</dbSelectionDescription>
+				</dbSelection>
+			</PageXMLRootDB>
+		</children>
+	</PageXMLRoots>
+	<WorkflowRoot id="96">
+		<children>
+			<WorkflowPageRef id="97" page="8"/>
+		</children>
+	</WorkflowRoot>
+	<GlobalVariables id="119">
+		<children>
+			<GlobalVariable id="120" sysVar="MT_Android" idxIcon_so="0"/>
+			<GlobalVariable id="121" sysVar="MT_iOS" idxIcon_so="1"/>
+			<GlobalVariable id="122" sysVar="MT_Browser" idxIcon_so="2"/>
+			<GlobalVariable id="123" sysVar="MT_iPad" idxIcon_so="3"/>
+			<GlobalVariable id="124" sysVar="MT_Windows" idxIcon_so="6"/>
+			<GlobalVariable id="125" sysVar="MT_WindowsPhone" idxIcon_so="7"/>
+			<GlobalVariable id="126" sysVar="MT_DeviceWidth"/>
+			<GlobalVariable id="127" sysVar="MT_DeviceHeight"/>
+			<GlobalVariable id="128" sysVar="MT_DPIX"/>
+			<GlobalVariable id="129" sysVar="MT_DPIY"/>
+			<GlobalVariable id="130" sysVar="MT_Landscape" idxIcon_so="4"/>
+			<GlobalVariable id="131" sysVar="MT_Portrait" idxIcon_so="5"/>
+			<GlobalVariable id="132" sysVar="MT_CanvasX"/>
+			<GlobalVariable id="133" sysVar="MT_CanvasY"/>
+			<GlobalVariable id="134" sysVar="MT_ClientLanguage"/>
+			<GlobalVariable id="135" sysVar="MT_TelephonyAvailable" idxIcon_so="20"/>
+			<GlobalVariable id="136" sysVar="MT_SMSAvailable" idxIcon_so="21"/>
+			<GlobalVariable id="137" sysVar="MT_ButtonTextColor"/>
+			<GlobalVariable id="138" sysVar="MT_ButtonBackgroundColor"/>
+			<GlobalVariable id="139" sysVar="MT_EditFieldTextColor"/>
+			<GlobalVariable id="140" sysVar="MT_EditFieldBackgroundColor"/>
+			<GlobalVariable id="141" sysVar="MT_LabelTextColor"/>
+			<GlobalVariable id="142" sysVar="MT_LabelBackgroundColor"/>
+			<GlobalVariable id="143" sysVar="MT_PageBackgroundColor"/>
+			<GlobalVariable id="144" sysVar="MT_FirstPageLoad"/>
+			<GlobalVariable id="145" sysVar="MT_TargetNode"/>
+			<GlobalVariable id="146" sysVar="MT_ControlKind"/>
+			<GlobalVariable id="147" sysVar="MT_ControlName"/>
+			<GlobalVariable id="148" sysVar="MT_ControlNode"/>
+			<GlobalVariable id="149" sysVar="MT_PageName"/>
+			<GlobalVariable id="150" sysVar="MT_UserName"/>
+			<GlobalVariable id="151" sysVar="MT_UserRoles"/>
+			<GlobalVariable id="152" sysVar="MT_ControlValue"/>
+			<GlobalVariable id="153" sysVar="MT_ControlValueBeforeChange"/>
+			<GlobalVariable id="154" sysVar="MT_SimulationMode"/>
+			<GlobalVariable id="155" sysVar="MT_DBExecute_Result"/>
+			<GlobalVariable id="156" sysVar="MT_CameraAvailable"/>
+			<GlobalVariable id="157" sysVar="MT_GeolocationAvailable"/>
+			<GlobalVariable id="158" sysVar="MT_InputParameters"/>
+			<GlobalVariable id="159" sysVar="MT_HTTPExecute_Result"/>
+			<GlobalVariable id="160" sysVar="MT_ServerConnectionErrorLocation"/>
+			<GlobalVariable id="161" sysVar="MT_IsAppStoreApp"/>
+			<GlobalVariable id="162" sysVar="MT_WindowWidth"/>
+			<GlobalVariable id="163" sysVar="MT_WindowHeight"/>
+			<GlobalVariable id="164" sysVar="MT_AudioChannel"/>
+			<GlobalVariable id="165" sysVar="MT_TableColumnContext"/>
+			<GlobalVariable id="166" sysVar="MT_NFCAvailable"/>
+			<GlobalVariable id="167" sysVar="MT_IsEmbedded"/>
+		</children>
+	</GlobalVariables>
+	<DBSourcesRoot so="1" id="98">
+		<children>
+			<DBSource id="99">
+				<dbDesignerInfo name="Books"/>
+				<dbContextInfo catalog="main" connection="Tutorials\Databases\Books.sqlite" contextType="sqlite" databaseMajorVersion="3" disable_foreign_keys="0" vendor="sqlite"/>
+			</DBSource>
+		</children>
+	</DBSourcesRoot>
+	<CustomerAppSettings so="1" id="95"/>
+</MobileTogetherDesign>
